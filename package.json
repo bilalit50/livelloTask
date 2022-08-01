@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.26.3",
+    "cypress": "^9.6.1"
+  },
+  "Script": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- -- headed"
+  }
+}
